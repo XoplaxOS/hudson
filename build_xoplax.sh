@@ -11,7 +11,7 @@ export USE_CCACHE=1
 ccache -M 16G
 source build/envsetup.sh 
 echo "Syncing build tree.."
-repo sync
+repo sync -j1
 echo "Lunching device.."
 lunch cm_$DEVICE-$BUILD_TYPE
 echo "Starting the real build!"
