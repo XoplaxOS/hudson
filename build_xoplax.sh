@@ -12,9 +12,9 @@ ccache -M 16G
 export HOST_USE_PIPE=true
 source build/envsetup.sh 
 echo "Syncing build tree.."
-repo sync -j4
+repo sync -j$JOB_NUMBER
 echo "Lunching device.."
 lunch cm_$DEVICE-$BUILD_TYPE
 echo "Starting the real build!"
-make -j5
+make -j$JOB_NUMBER
 
