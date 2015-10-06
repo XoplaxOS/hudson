@@ -16,5 +16,5 @@ repo sync -j$JOB_NUMBER
 echo "Lunching device.."
 lunch cm_$DEVICE-$BUILD_TYPE
 echo "Starting the real build!"
-make -j$JOB_NUMBER
+make bacon -j$JOB_NUMBER
 
