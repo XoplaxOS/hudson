@@ -1,0 +1,13 @@
+# XOS build target list
+
+# XOS 2.1 Daily
+armani userdebug xos-2.1
+
+# XOS 2.1 Rarely
+falcon userdebug xos-2.1
+p3100 userdebug xos-2.1
+p5100 userdebug xos-2.1
+sprout4 userdebug xos-2.1
+sprout8 userdebug xos-2.1
+wt86518 userdebug xos-2.1
+wt88047 userdebug xos-2.1
