@@ -1,5 +1,8 @@
 # XOS build target list
 
+# XOS 3.0 Nightly
+armani userdebug xos-3.0
+
 # XOS 2.1 Daily
 armani userdebug xos-2.1
 
